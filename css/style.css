@@ -26,69 +26,16 @@ nav a{
     color: white;
     text-decoration: none;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
-    
-    font-size: 20px;
-
-    min-height: 10vh;
-    width:100vw;
-
-    position: fixed;
-    z-index: 999;
-    top: 0px;
-
-    background-color: #111111;
-
-}
-button {cursor: pointer;}
-.navLinks{
-    width: 40%;
-}
-.logo img{
-    margin-left: 20px;
-
-    transition: 500ms width;
-
-    width: 102px;
-}
-.nav-list{
-    margin-right: 40px;
-
-    list-style: none;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.nav-list li{
-    letter-spacing: 3px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-
-    margin-right: 25px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-
-}
-.nav-list li a:hover{
-    border-bottom: 3px #00FF43 solid;
-    transform: scale(2, 0.5);
-}
 .active {
-    border-bottom: 3px #00FF43 solid;
+    border-bottom: 3px #560687 solid;
     transform: scale(2, 0.5);
     cursor: default;
     opacity: 0.7;
 }
 .auth-container {
     position: relative;
-    border: 3px solid #00FF43;
+    border: 3px solid #560687;
     border-radius: 15px;
     width: 180px;
     height: 35px;
@@ -111,7 +58,7 @@ button {cursor: pointer;}
 }
 
 .anim-auth{
-    background-color: #00FF43;
+    background-color: #560687;
 
     width: 90px;
     height: 35px;
@@ -166,7 +113,7 @@ button {cursor: pointer;}
 .page-title div{
     width: 35%;
     height: 9px;
-    background: #0CE817;
+    background: #750983;
     border-radius: 20px;
     margin-bottom: 25px
 }

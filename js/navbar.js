@@ -1,19 +1,10 @@
-const body = document['body'];
-const prop = document.getElementById('prop');
-const nav = document.getElementById('nav');
-
-//OnLoad Page
-update_navbar();
-
-body.onscroll = ()=>{
-    update_navbar();
-}
-
-function update_navbar(){
-    var prop_top_dist = prop.getBoundingClientRect().top;
-    if(prop_top_dist <= 22){
-        nav.classList.remove('index-nav');
-    }else{
-        nav.classList.add('index-nav');
+function menuShow() {
+    let menuMobile = document.querySelector('.mobile-menu');
+    if (menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open');
+        document.querySelector('.icon').src = "imgs/menu_white_36dp.svg";
+    } else {
+        menuMobile.classList.add('open');
+        document.querySelector('.icon').src = "imgs/close_white_36dp.svg";
     }
 }

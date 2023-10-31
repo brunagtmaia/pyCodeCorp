@@ -8,15 +8,37 @@ html {
     font-family: 'Inter', sans-serif;
 }
 header{
-    background-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.678), transparent),
-    url('../imgs/pycode2.jpg');
-    background-repeat: no-repeat;
+   background-color: #24252a;
+   box-shadow: 0px 3px 10px #464646;
+}
+.Capa {
+    background-image: url('/imgs/pycode2.jpg');
+    background-position: center center;
+    background-repeat: repeat;
     background-size: cover;
+    height: auto;
+    width: auto;
 }
-.nav-container {
-    min-height: 15vh;
+
+  .container-footer {
+    text-align: left; /* Centraliza o conteúdo horizontalmente */
+    margin: 0 auto; /* Centraliza a div horizontalmente na tela */
+    width: 68%; /* Defina uma largura desejada para a div, ajuste conforme necessário */
+  }
+
+.text-container {
+    padding-top: 40%;
+    font-size: 30px;
+    color: white;
 }
+.line_description {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 3em;
+    height: 1em;
+    border-radius: 3rem;
+  }
+
 
 .index-nav{
     min-height: 13vh;
@@ -37,48 +59,11 @@ header{
     margin-right: 32px;
 }
 
-#prop{
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    
 
-    display: flex;
-    flex-direction:column;
-    justify-content: space-around;  
-
-    background-color: linear-gradient(rgba(0, 0, 0, 0.458), rgb(255, 255, 255));
-
-    text-align: left;
-}
-#title{
-    color: white;
-
-    margin: auto;
-
-    font-size: 90px;
-    text-shadow: 30px;
-    text-align: left;
-
-    margin-left: 10%;
-    margin-top: 10%;
-}
-#prop h3{
-    text-align: left;
-    text-shadow: 30px;
-    font-size: 40px;
-
-    color: white;
-
-    margin: auto;
-    margin-left: 10%;
-    margin-top: 0%;
-}
 .saibaMais{
-    box-shadow: 1px 1px 5px 5px #00FF43;
+    box-shadow: 1px 1px 5px 5px #49026d;
 
-    background-color: #00FF43;
+    background-color: #8501b9;
     color: black;
 
     border: black;
@@ -91,4 +76,17 @@ header{
 
     margin-left: 10%;
     margin-bottom: 10%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #24252a;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #353232;
 }
