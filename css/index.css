@@ -14,17 +14,17 @@ header{
 .Capa {
     background-image: url('/imgs/pycode2.jpg');
     background-position: center center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
-    width: auto;
+    height: 100vh; /* Usar altura de viewport para cobrir toda a tela */
+    width: 100%; /* Usar largura de viewport para cobrir toda a tela */
 }
 
-  .container-footer {
-    text-align: left; /* Centraliza o conteúdo horizontalmente */
-    margin: 0 auto; /* Centraliza a div horizontalmente na tela */
-    width: 68%; /* Defina uma largura desejada para a div, ajuste conforme necessário */
-  }
+.container-footer {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 68%; /* Usar uma largura máxima em vez de uma largura fixa */
+}
 
 .text-container {
     padding-top: 40%;
