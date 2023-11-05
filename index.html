@@ -1,20 +1,68 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="./style/global.css" type="text/css" />
-  </head>
-  <body>
-    <nav class="descktop">
-      <div class="logo">
-       PyCorpCorp
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/navbar.css">
+  <link rel="stylesheet" href="/style/global.css">
+  <title>Pycodec</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+          <div class="logo">
+            <h1>Logo</h1>
+          </div>
+          <div class="nav-list">
+            <ul>
+              <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Portifolios</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Sobre nós</a></li>
+            </ul>
+          </div>
+
+          <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img src="/image/menu_white_36dp.svg"></button>
+          </div>
+        </nav>
+        <div class="mobile-menu">
+          <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Portifolios</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Sobre nós</a></li>
+          </ul>
+        </div>
+    </header>
+      <div class="container-footer">
+          <h1 id="title">Transformando ideias <br>em páginas web de sucesso</h1><br>
+          <h2>a Pycode constrói seu futuro digital<br> pixel por pixel.</h2>
       </div>
-      <ul>
-        <li>Nossas habilidades</li>
-        <li>Sobre nós</li>
-        <li>Nossa equipe</li>
-        <li>Nossos projetos</li>
-        <li>Contato</li>
-      </ul>
-    </nav>
-  </body>
+
+      <div class="nosso-portifolio">
+        <h4>Nossos Portifolios</h4>
+    </div>
+    <div class="card-container">
+      <div class="card">
+        <a href="#"><img src="/image/tdc.png" /></a>
+      </div>
+  
+      <div class="card">
+        <a href="#">
+          <img src="/image/tdc.png" />
+        </a>
+      </div>
+  
+      <div class="card">
+        <a href="#"><img src="/image/tdc.png" /></a>
+      </div>
+    </div>
+
+    <div class="sobre-nos">
+      <h1 id="title">Sobre nós<br></h1><br>
+      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>lorem ipsum dolor sit amet consectetur adipisicing <br>amet consectetur dolor sit </h3>
+  </div>
+
+  
+    <script src="script/script.js"></script>
+</body>
 </html>

@@ -1,21 +1,77 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: linear-gradient(180deg, #7A20A4 0%, rgba(30, 14, 37, 0.9) 80%);
+  
+  }
+.container-footer{
+    margin-top: 135px;
+    margin-left: 5%;
+    color: #848383;
+    font-size: 1.07rem;
 }
 
-body {
-  background: linear-gradient(180deg, #7A20A4 0%, rgba(30, 14, 37, 0.9) 80%);
-  width: 100vw;
-  height: 100vh;
+.nosso-portifolio{
+    width: 20%; 
+    margin: 15% 39%; 
+    text-align: center;
+    color: #848383;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: visible;
+    color: #848383;
+    margin-top: -9%;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: 2.03%;
+    width: 40%;
+    position: relative;
+    transition: transform 0.4s ease;
+    transition: all 0.5s;
+    cursor: pointer;
+
+  }
+  
+  .card:hover {
+    transform: scale(1.07);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+  }
+  .card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+    border-radius: 2%;
+  }
+
+  .sobre-nos{
+    width: 50%;
+    text-align: center;
+    margin-top: 135px;
+    margin: 15% 25%; 
+    color: #848383;
+    font-size: 1.07rem;
 }
 
-nav .descktop{
-  display: flex;
-  flex-direction: row;
-  width: 100vw;
-  justify-content: space-between;
+  ::-webkit-scrollbar {
+    width: 10px;
 }
-nav.descktop ul{
-  display: flex;
-  list-style: none;
+
+::-webkit-scrollbar-thumb {
+    background: #62606364;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, #7A20A4 0%, rgba(30, 14, 37, 0.9) 80%)
 }
