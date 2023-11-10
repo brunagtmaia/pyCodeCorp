@@ -73,5 +73,5 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: linear-gradient(180deg, #7A20A4 0%, rgba(30, 14, 37, 0.9) 80%)
+    background: transparent
 }
