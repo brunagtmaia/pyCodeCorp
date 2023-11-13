@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="/style/global.css" />
 		<link rel="stylesheet" href="/style/home.css" />
 		<link rel="stylesheet" href="/style/cardT.css" />
+		<link rel="stylesheet" href="/style/projects.css">
 		<title>Pycodec</title>
 	</head>
 	<body>
@@ -52,25 +53,42 @@
 
 		<!--card de portifolio-->
 
-		<div class="nosso-portifolio">
-			<h3>Nossos Portifolios</h3>
-		</div>
-
-		<div class="card-container">
-			<div class="card">
-				<a href="#"><img src="/image/tdc.png" /></a>
-			</div>
-
-			<div class="card">
-				<a href="#">
-					<img src="/image/tdc.png" />
-				</a>
-			</div>
-
-			<div class="card">
-				<a href="#"><img src="/image/tdc.png" /></a>
-			</div>
-		</div>
+		<section id="s-projects">
+			<div class="grid-layout">
+			  <h2 class="delaySmallReveal">Projetos</h2>
+			  <div id="projects">
+				<article class="intervalCardReveal tdc">
+				  <h3>Tempo de criança</h3>
+				  <p>
+					Site institucional, feito em HTML, Css e
+					JavaScript.
+				  </p>
+	
+				  <a
+					href="#"
+					rel="noopener"
+					target="_blank"
+					id="tdc"
+					>Visualizar projeto
+				  </a>
+				</article>
+	
+				
+				<article class="intervalCardReveal none">
+				  <h3>Em construção...</h3>
+				  <p>
+					Pegue o café e espere um pouco, estou desenvolvendo o projeto.
+				  </p>
+				</article>
+	
+				<article class="intervalCardReveal none">
+				  <h3>Em construção...</h3>
+				  <p>
+					Pegue o café e espere um pouco, estou desenvolvendo o projeto.
+				  </p>
+				</article>
+			  </div>
+		  </section>
 
 		<!--Card de cada um de nós-->
 
@@ -174,81 +192,178 @@
 		</div>
 
 		<!--Nossas ferramentas de trab, aquelas fotos das linguagens que falei que ia colocar-->
-    <div class="ferramentas">
-			<h1 id="title">Nossas ferramentas<br /></h1>
-			<br />
-			<h3>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+
+		<section id="s-skills">
+			<div class="grid-layout">
+			  <div id="skills">
+				<article id="skills-text">
+				  <h2 class="delaySmallReveal">Nossas ferramentas <span></span></h2>
+				  <p class="delayMediumReveal changeDescription">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
 				lorem ipsum dolor sit amet consectetur adipisicing <br />
 				amet consectetur dolor sit
-			</h3>
-		</div>
+				  </p>
+				</article>
+	
+				<div id="skills-cards">
+				  <article class="html intervalCardReveal">
+					<img
+					  src="assets/icons/html.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do html"
+					/>
+				  </article>
+				  <article class="css intervalCardReveal">
+					<img
+					  src="assets/icons/css.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do css"
+					/>
+				  </article>
+				  <article class="js intervalCardReveal">
+					<img
+					  src="assets/icons/javascript.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do javascript"
+					/>
+				  </article>
+				  <article class="sass intervalCardReveal">
+					<img
+					  src="assets/icons/sass.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do sass"
+					/>
+				  </article>
+				  <article class="react intervalCardReveal">
+					<img
+					  src="assets/icons/react.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do react"
+					/>
+				  </article>
+				  <article class="next intervalCardReveal">
+					<img
+					  src="assets/icons/next.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do next"
+					/>
+				  </article>
+				  <article class="styled intervalCardReveal">
+					<img
+					  src="assets/icons/styled-components.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do styled"
+					/>
+				  </article>
+				  <article class="tailwind intervalCardReveal">
+					<img
+					  src="assets/icons/tailwindcss.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do tailwind"
+					/>
+				  </article>
+	
+				  <article class="radix intervalCardReveal">
+					<img
+					  src="assets/icons/radix.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do radix"
+					/>
+				  </article>
+	
+				  <article class="typescript intervalCardReveal">
+					<img
+					  src="assets/icons/typescript.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do typescript"
+					/>
+				  </article>
+	
+				  <article class="storybook intervalCardReveal">
+					<img
+					  src="assets/icons/storybook.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do storybook"
+					/>
+				  </article>
+	
+				  <article class="cypress intervalCardReveal">
+					<img
+					  src="assets/icons/cypress.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do cypress"
+					/>
+				  </article>
+				</div>
+			  </div>
+			</div>
+		  </section>
+  <section id="s-services">
+	<div class="grid-layout">
+	  <h2 class="delaySmallReveal">Serviços <span>.</span></h2>
+	  <div id="services">
+		<article class="intervalCardReveal">
+		  <div>
+			<img
+			  src="/image/browser-ui-svgrepo-com.svg"
+			  width="100px"
+			  height="100px"
+			  alt="ícone layers"
+			/>
+		  </div>
+		  <h3>UI | UX</h3>
+		  <p>
+			Desenhamos sua pagina do zero, estilizando com suas preferencias e gostos,
+			criamos paginas intuitivas para serem simples de uso. 
+		  </p>
+		</article>
 
-		<div class="container">
-		<div class="row">
-			<div class="column">
-				<div class="card-t">
-					<img src="/image/html.svg" alt="Linguagem1" style="width:100%" />
-				</div>
-			</div>
-			<div class="column">
-				<div class="card-t">
-					<img src="caminho_para_imagem2" alt="Linguagem2" style="width:100%" />
-					<h3>Linguagem2</h3>
-				</div>
-			</div>
-			<div class="column">
-				<div class="card-t">
-					<img src="caminho_para_imagem3" alt="Linguagem3" style="width:100%" />
-					<h3>Linguagem3</h3>
-				</div>
-			</div>
-		</div>
+		<article class="intervalCardReveal">
+		  <div>
+			<img
+			  src="/image/code-tech-dev-svgrepo-com.svg"
+			  width="100px"
+			  height="100px"
+			  alt="ícone código"
+			/>
+		  </div>
+		  <h3>Desenvolvimento</h3>
+		  <p>
+			Desenvolvo sites profissionais, blogs, portfólios, landing pages
+			e e-commerce.
+		  </p>
+		</article>
 
-		<div class="row">
-			<div class="column">
-				<div class="card-t">
-					<img src="caminho_para_imagem4" alt="Linguagem4" style="width:100%" />
-					<h3>Linguagem4</h3>
-				</div>
-			</div>
-
-			<div class="column">
-				<div class="card-t">
-					<img src="caminho_para_imagem5" alt="Linguagem5" style="width:100%" />
-					<h3>Linguagem5</h3>
-				</div>
-			</div>
-
-			<div class="column">
-				<div class="card-t">
-					<img src="caminho_para_imagem6" alt="Linguagem6" style="width:100%" />
-					<h3>Linguagem6</h3>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="column">
-				<div class="card-t">
-					<img src="caminho_para_imagem7" alt="Linguagem7" style="width:100%" />
-					<h3>Linguagem7</h3>
-				</div>
-			</div>
-			<div class="column">
-				<div class="card-t">
-					<img src="caminho_para_imagem8" alt="Linguagem8" style="width:100%" />
-					<h3>Linguagem8</h3>
-				</div>
-			</div>
-			<div class="column">
-				<div class="card-t">
-					<img src="caminho_para_imagem9" alt="Linguagem9" style="width:100%" />
-					<h3>Linguagem9</h3>
-				</div>
-			</div>
-		</div>
-  </div>
+		<article class="intervalCardReveal">
+		  <div>
+			<img
+			  src="assets/icons/icon-app-design.svg"
+			  width="100px"
+			  height="100px"
+			  alt="ícone imagem"
+			/>
+		  </div>
+		  <h3>Motion</h3>
+		  <p>
+			Crio interações que transmitem sensação de modernidade, além de
+			chamarem a atenção do usuário.
+		  </p>
+		</article>
+	  </div>
+	</div>
+  </section>
 		<script src="script/script.js"></script>
 	</body>
 </html>

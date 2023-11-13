@@ -1,0 +1,125 @@
+#s-projects {
+    padding: 48px 24px;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 380px; 
+}
+
+@media screen and (max-width: 992px) {
+    #s-projects {
+        padding: 48px 24px;
+    }
+}
+
+#s-projects .grid-layout h2 {
+    padding-bottom: 12px;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+#s-projects .grid-layout h2 span {
+    color: #986dff;
+}
+
+#s-projects .grid-layout #projects {
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#s-projects .grid-layout #projects .tdc {
+    border: 1px solid #000000;
+    width: 80%;
+    margin: 8px;
+}
+
+@media screen and (min-width: 1201px) {
+    #s-projects .grid-layout #projects>article {
+        flex-basis: calc(25% - 20px);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #s-projects .grid-layout #projects>article {
+        flex-basis: calc(33% - 20px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #s-projects .grid-layout #projects>article {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #s-projects .grid-layout #projects>article {
+        flex-basis: calc(100% - 20px);
+    }
+}
+
+#s-projects .grid-layout #projects>article {
+    height: auto;
+    padding: 32px;
+    margin: 8px;
+    flex-grow: 1;
+    border: 1px solid #111;
+    transition: 1s all ease;
+    background-color: transparent;
+    height: auto;
+}
+
+#s-projects .grid-layout #projects>article:hover {
+    border: 1px solid #986dff;
+}
+
+#s-projects .grid-layout #projects>article h3 {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#s-projects .grid-layout #projects>article p {
+    line-height: 18px;
+    margin: 12px 0;
+    color: #9ca3af;
+    line-height: 2.4rem;
+    font-size: 1.4rem;
+}
+
+#s-projects .grid-layout #tdc {
+    text-decoration: none; 
+    color: rgb(91, 164, 200);
+}
+
+#s-projects .grid-layout #tdc::after {
+    background: linear-gradient(270deg, #545452 0%, #17161d 100%);
+}
+
+#s-projects .grid-layout a {
+    color: #986dff;
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+#s-projects .grid-layout a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: -7px;
+    left: 0;
+    background: linear-gradient(270deg, #986dff 0%, #17161d 100%);
+    transform-origin: bottom right;
+    transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+#s-projects .grid-layout a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

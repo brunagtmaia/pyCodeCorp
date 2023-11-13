@@ -42,3 +42,86 @@
   max-width: 450px;
   margin: 0px;
 }
+
+
+/*==============================NOSSAS FERRAMENTAS==============================*/
+
+#s-services {
+  padding: 26px 38px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 992px) {
+  #s-services {
+      padding:48px 24px
+  }
+}
+
+#s-services .grid-layout h2 {
+  text-align: center;
+  padding-bottom: 24px;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 500
+}
+
+#s-services .grid-layout h2 span {
+  color: #986dff
+}
+
+#s-services .grid-layout #services {
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 24px 0px
+}
+
+#s-services .grid-layout #services article {
+  background-color: transparent;
+  height: auto;
+  padding: 32px;
+  margin: 8px;
+  flex-basis: calc(33% - 20px);
+  flex-grow: 1;
+  border: 1px solid #111;
+  transition: 1s all ease;
+  border: 1px solid #1f1f1f;
+  border-radius: 4px
+}
+
+#s-services .grid-layout #services article:hover {
+  border: 1px solid #986dff
+}
+
+@media screen and (max-width: 1200px) {
+  #s-services .grid-layout #services article {
+      flex-basis:calc(50% - 20px)
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #s-services .grid-layout #services article {
+      flex-basis:calc(100% - 20px)
+  }
+}
+
+#s-services .grid-layout #services article div {
+  height: 90px
+}
+
+#s-services .grid-layout #services article div img {
+  width: 70px
+}
+
+#s-services .grid-layout #services article h3 {
+  padding: 24px 0px;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 500
+}
+
+#s-services .grid-layout #services article p {
+  line-height: 3.2rem;
+  color: #9ca3af;
+  font-size: 1.8rem
+}
